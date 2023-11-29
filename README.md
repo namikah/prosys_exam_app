@@ -2,8 +2,8 @@
 
 -----FRONT-----
 RUN COMMAND:
-npm i
-npm run dev
+npm i 
+then npm run dev
 
 -----BACKEND-----
 1. Don't need to change connectionstring in appsetting.json (test database in ubuntu server)
