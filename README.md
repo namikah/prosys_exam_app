@@ -1,12 +1,6 @@
 # Imtahan proqramı
 
------FRONT-----
-RUN COMMAND:
-npm i 
-then npm run dev
+BACKEND
+database xarici serverde yerləşdirilib, connectionstring dəyişməyə ehtiyac yoxdur. Əgər dəyişmək lazım gəlsə terminaldan 'update-database' deməklə table yeni database-ə yüklənəcəkdir.
 
------BACKEND-----
-1. Don't need to change connectionstring in appsetting.json (test database in ubuntu server)
-2. if you want to change connectionstring, then terminal command to pull database:
-     - update database
-     - then run app
+FRONTEND üçün isə sadəcə node modules yükləmək və 'npm run dev' demek kifayətdir.
